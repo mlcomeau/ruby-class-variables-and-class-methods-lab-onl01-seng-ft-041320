@@ -40,7 +40,7 @@ class Song
     end
 
     genre_count
-    
+
   end
 
   def self.artist_count
@@ -49,7 +49,7 @@ class Song
     @@artists.each do |artist|
       if !(artist_count.include?(artist))
         artist_count[artist] = 1
-      else 
+      else
         artist_count[artist] +=1
       end
     end
@@ -57,7 +57,7 @@ class Song
     artist_count
 
   end
-  
+
 
 
 
